@@ -1,0 +1,1 @@
+var FOTOCOMMUNITY=FOTOCOMMUNITY||{};$(document).ready(function(){(new FOTOCOMMUNITY.UniversalAnalyticsEvents).execute()});

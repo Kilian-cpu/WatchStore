@@ -12,6 +12,16 @@ body{
     margin: auto;
     overflow: hidden;
 }
+.button{
+    background-color: gray;
+    color: snow;
+    padding: 15px 30px;
+    border: none;
+}
+.button:hover{
+    background: blue;
+    color: snow
+}
 #main-header{
     background-color: rgb(37, 35, 35);
     color: ghostwhite;
@@ -76,4 +86,28 @@ body{
         width: 100%;
         float: none;
     }
+}
+.block{
+    float: left;
+    width: 25%;
+    border: 1px solid snow;
+    padding:10px;
+    box-sizing: border-box;
+}
+.my-form{
+    padding: 150px 40px;
+}
+.my-form .form-group{
+    padding-bottom: 20;  
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width: 50%;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
 }
