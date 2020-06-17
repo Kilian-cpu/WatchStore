@@ -17,9 +17,10 @@ body{
     color: snow;
     padding: 15px 30px;
     border: none;
+    box-shadow: 2px 5px 10px 1px #1b4663;
 }
 .button:hover{
-    background: blue;
+    background:rgb(37, 35, 35);
     color: snow
 }
 #main-header{
