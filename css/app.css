@@ -6,7 +6,6 @@ body{
     line-height: 1.6em;
     margin: 0;
 }
-
 .container{
     width: 80%;
     margin: auto;
@@ -17,19 +16,28 @@ body{
     color: snow;
     padding: 15px 30px;
     border: none;
-    box-shadow: 2px 5px 10px 1px #1b4663;
 }
 .button:hover{
-    background:rgb(37, 35, 35);
+    background:#252323;
     color: snow
 }
-#main-header{
-    background-color: rgb(37, 35, 35);
-    color: ghostwhite;
+#main-header{ 
+    background-color: #252323;
+    color: ghostwhite;  
+}
+#main-header a{
+    text-decoration: none;
+}
+#main-header img{
+    width: 40px;
+    float: left;
+    padding-top: 15px;
+    padding-right: 10px;
 }
 #navbar{
     background-color: gray;
-    color: #ffffff;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 #navbar ul{
     padding: 0%;
@@ -42,7 +50,18 @@ body{
     color: snow;
     text-decoration: none;
     font-size: 18px;
-    padding-right: 30px;
+    padding: 0 20px;
+}
+#navbar a:hover{
+    color: #252323;
+}
+#navbar input{
+    float: right;
+    padding: 3px 10px;
+    background: snow;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
 #showcase{
     background-image:url('../images/surface.jpeg');
@@ -57,20 +76,6 @@ body{
     line-height: 2em;
     padding-top: 30px;
 }
-#main{
-    float:left;
-    width: 70%;
-    padding: 0 30px;
-    box-sizing:border-box;
-}
-#sidebar{
-    float: right;
-    width: 30%;
-    background: gray;
-    color:snow;
-    padding: 10px;
-    box-sizing: border-box;
-}
 #main-footer{
     background: gray;
     color: snow;
@@ -78,37 +83,11 @@ body{
     padding: 20px;
     margin-top: 40px;
 }
-@media(max-width:600px){
-    #main{
-        width: 100%;
-        float: none;
+
+
+
+
+
+@media(max-width:1000px){
+    #navbar input{float: none; margin-left: 20px; margin-top: 10px;}
     }
-    #sidebar{
-        width: 100%;
-        float: none;
-    }
-}
-.block{
-    float: left;
-    width: 25%;
-    border: 1px solid snow;
-    padding:10px;
-    box-sizing: border-box;
-}
-.my-form{
-    padding: 150px 40px;
-}
-.my-form .form-group{
-    padding-bottom: 20;  
-}
-.my-form label{
-    display: block;
-}
-.my-form input[type="text"], .my-form textarea{
-    padding:8px;
-    width: 50%;
-}
-.fix-me{
-    position: fixed;
-    top: 400px;
-}
