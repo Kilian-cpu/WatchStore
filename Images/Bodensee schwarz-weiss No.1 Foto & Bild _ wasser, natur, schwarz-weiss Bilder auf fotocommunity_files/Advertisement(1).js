@@ -1,1 +1,0 @@
-var FOTOCOMMUNITY=FOTOCOMMUNITY||{};$(document).ready(function(){FOTOCOMMUNITY.advertisement=new FOTOCOMMUNITY.Advertisement,FOTOCOMMUNITY.advertisement.execute()});
