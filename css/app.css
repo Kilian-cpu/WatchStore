@@ -32,6 +32,16 @@ body{
     background:#252323;
     color: snow
 }
+.button2{
+  background-color:green;
+  color: snow;
+  padding: 15px 30px;
+  border: none;
+}
+.button2:hover{
+  background:darkgreen;
+  color: snow
+}
 #main{
     float:left;
     width: 100%;
@@ -52,7 +62,7 @@ body{
     padding-right: 10px;
 }
 #navbar{
-    background-color: gray;
+    background-color: #808080;
     margin-bottom:;
     padding: 10px;
 }
@@ -117,6 +127,82 @@ body{
   padding: 20px;
   padding-left: 50px;
 }
+/* About Content
+-------------------------------------------------- */
+.gray-container{
+  background-color: gray;
+  color: snow;
+  margin: 0;
+  padding: 1em o 1em;
+}
+.gray-container ul li{
+  margin: 3em;
+  padding: 1em;
+  list-style-type: none;
+}
+.testemonial-container{
+  background-color: snow;
+  color:#252323;
+}
+ul{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+  }
+  .container-list{
+    text-align: center;
+    padding: 3em 0 3em 0;
+  }
+  .topabout{
+    width: 100%; 
+    max-height: 40em;
+    margin-top: 7px; 
+}
+section{
+  margin: 0em;
+  padding: 0em;
+  border: 0em;
+}
+figure{
+  margin: 0em;
+  padding: 0em;
+  margin:5em;
+}
+figure blockquote :nth-child(2){
+  padding-top: 50px;
+}
+figcaption{
+  font-weight: bold;
+}
+.Container-newsletter{
+  text-align: left;
+  background-color: #808080;
+  color: snow;
+  padding-left: 40px;
+}
+.my-form{
+  padding: 80px 40px;
+}
+.my-form .form-group{
+  padding-bottom: 20;  
+}
+.my-form label{
+  display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+  padding:8px;
+  width: 50%;
+  max-width: 500px;
+}
+.container-location{
+width: 80%;
+margin: auto;
+overflow: hidden;
+padding: 50px 0 50px;
+
+}
+/* Finish About Content
+-------------------------------------------------- */
 .col-md-5{
   float: right;
   width: 40%;
@@ -156,7 +242,7 @@ body{
     color: snow;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: x;
 }
 .container2{
     display: flex;
@@ -230,27 +316,23 @@ body {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
+@media(min-width:1000px) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+  .gray-container img{ 
+    width: 50%;
+  }
+  .gray-container ul{
+    display: flex;
+  }
+  .testemonial-container ul{
+    display: flex;
   }
 }
 
 @media(max-width:1000px){
-    #navbar input{float: none; margin-left: 20px; margin-top: 10px;}
-    .block{float: none;}
+  #navbar input{float: none; margin-left: 20px; margin-top: 10px;}
+  .block{float: none;}
 }
+
