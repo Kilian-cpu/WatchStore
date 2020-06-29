@@ -1,0 +1,340 @@
+/* NavBar
+-------------------------------------------------- */
+.bg-color-black{
+    background-color: #808080;
+    padding: 2em;
+}
+.bt-style-gray{
+    background-color: gry;
+    border-radius: 0;
+}
+.container80{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+.navbar-brand{
+    font-size: 1.8em;
+    font-family:monospace;
+    padding-right: 40px;
+}
+.form-inline{
+flex-wrap: nowrap;
+}
+.navbar-dark .navbar-toggler{
+    color: snow;
+    border-color: snow;
+}
+.navbar{
+    margin-bottom: 30px;
+}
+/* Finish Navbar
+-------------------------------------------------- */
+
+
+/* Inhalt Homepage
+-------------------------------------------------- */
+
+.container2{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    border: none;
+    min-height: 200px;
+    flex-wrap: wrap;
+    font-size: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 1.1em;
+}
+.box-1{ background-color: white; margin: 6px; flex-shrink: inherit}
+.box-2{ background-color: white; margin: 6px; flex-shrink: 10}
+.box-3{ background-color: white; margin: 6px; flex-shrink: inherit}
+.box-4{ background-color: white; margin: 6px; flex-shrink: inherit}
+.box-5{ background-color: white; margin: 6px; flex-shrink: inherit}
+.box-6{ background-color: white; margin: 7px; flex-shrink: inherit}
+.box-7{ background-color: white; margin: 6px; flex-shrink: inherit}
+.box-8{ background-color: white; margin: 6px; flex-shrink: inherit}
+.box-9{ background-color: white; margin: 6px; flex-shrink: inherit}
+.box-10{ background-color: white; margin: 6px; flex-shrink: inherit}
+
+.box-1 img {
+  transition: all 0.5s ease-in-out;
+}
+.box-1 img:hover {
+  transform: scale(1.1);
+}
+.box-2 img {
+    transition: all 0.3s ease-in-out;
+  }
+  .box-2 img:hover {
+    transform: scale(1.1);
+  }
+  .box-3 img {
+    transition: all 0.3s ease-in-out;
+  }
+  .box-3 img:hover {
+    transform: scale(1.1);
+  }
+  .box-4 img {
+    transition: all 0.3s ease-in-out;
+  }
+  .box-4 img:hover {
+    transform: scale(1.1);
+  }
+  .box-5 img {
+      transition: all 0.3s ease-in-out;
+    }
+    .box-5 img:hover {
+      transform: scale(1.1);
+    }
+    .box-6 img {
+      transition: all 0.3s ease-in-out;
+    }
+    .box-6 img:hover {
+      transform: scale(1.1);
+    }
+    .box-7 img {
+        transition: all 0.3s ease-in-out;
+      }
+      .box-7 img:hover {
+        transform: scale(1.1);
+      }
+      .box-8 img {
+        transition: all 0.3s ease-in-out;
+      }
+      .box-8 img:hover {
+        transform: scale(1.1);
+      }
+      .box-9 img {
+          transition: all 0.3s ease-in-out;
+        }
+        .box-9 img:hover {
+          transform: scale(1.1);
+        }
+        .box-10 img {
+          transition: all 0.3s ease-in-out;
+        }
+        .box-10 img:hover {
+          transform: scale(1.1);
+        }
+        .gqBRFN {
+            width: 100%;
+            background-color: rgb(snow);
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .dlAzQm {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            overflow-x: hidden;
+            margin: 0px auto 60px;
+        }
+/* Inhalt Hompage Ende
+-------------------------------------------------- */
+
+/* Dress Conternt
+-------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+  /* Dress Conternt finish
+-------------------------------------------------- */
+
+
+  /* about contet
+-------------------------------------------------- */
+
+.gray-container{
+    background-color: #252323;
+    color: snow;
+    margin: 0;
+    padding: 1em o 1em;
+  }
+  .gray-container ul li{
+    margin: 3em;
+    padding: 1em;
+    list-style-type: none;
+  }
+  .testemonial-container{
+    background-color: snow;
+    color:#252323;
+  }
+  ul{
+      list-style-type: none;
+      margin: 0em;
+      padding: 0em;
+    }
+    .container-list{
+      text-align: center;
+      padding: 3em 0 3em 0;
+    }
+    .topabout{
+      width: 100%; 
+      max-height: 40em;
+      margin-top: 7px; 
+  }
+  section{
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
+  }
+  figure{
+    margin: 0em;
+    padding: 0em;
+    margin:5em;
+  }
+  figure blockquote :nth-child(2){
+    padding-top: 50px;
+  }
+  figcaption{
+    font-weight: bold;
+  }
+  .Container-newsletter{
+    text-align: left;
+    background-color: #252323;
+    color: snow;
+    padding-left: 40px;
+  }
+  .my-form{
+    padding: 80px 40px;
+  }
+  .my-form .form-group{
+    padding-bottom: 20;  
+  }
+  .my-form label{
+    display: block;
+  }
+  .my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width: 50%;
+    max-width: 500px;
+  }
+  .container-location{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 50px 0 50px;
+  }
+  .button{
+    background-color: gray;
+    color: snow;
+    padding: 15px 30px;
+    border: none;
+}
+.button:hover{
+    background:#252323;
+    color: snow
+}
+.button2{
+  background-color:green;
+  color: snow;
+  padding: 15px 30px;
+  border: none;
+}
+.button2:hover{
+  background:darkgreen;
+  color: snow
+}
+  .button3{
+    background-color:#252323;
+    color: snow;
+    padding: 5px 8px;
+    border: none;
+}
+.button3:hover{
+    background:snow;
+    color: #252323;
+}
+.button4{
+    background-color:transparent;
+    color: snow;
+    padding: 5px 8px;
+    border: 10px;
+    border-color: #252323;
+}
+.button4:hover{
+    background:snow;
+    color: #252323;
+}
+  /* Finish About Content
+  -------------------------------------------------- */
+
+    /* Diver
+  -------------------------------------------------- */
+
+  .jumbotron{
+    background-image:url('../Images/surface.jpeg');
+    color: snow;
+    height: 350px;
+    padding-top: 100px;
+    
+  }
+.btn .btn-primary{
+    background-color: 252323;
+
+}
+.card .mb-4 .shadow-sm{
+    align-content: center;
+    padding-left: x;
+}
+
+    /* Diver finishd
+  -------------------------------------------------- */
+
+ 
+
+
+
+
+/* Inhalt finish
+-------------------------------------------------- */
+
+
+
+
+/* Footer
+-------------------------------------------------- */
+#main-footer{
+    background: gray;
+    color: snow;
+    text-align: center;
+    padding: 100px;
+    margin-top:30px;
+}
+
+/* Finish Footer
+-------------------------------------------------- */
+
+@media(min-width:1000px) {
+    .gray-container img{ 
+      width: 50%;
+    }
+    .gray-container ul{
+      display: flex;
+    }
+    .testemonial-container ul{
+      display: flex;
+    }
+
+  
+  @media(max-width:1000px){
+    #navbar input{float: none; margin-left: 20px; margin-top: 10px;}
+    .block{float: none;}
+  }
+  
