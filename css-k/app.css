@@ -1,7 +1,7 @@
 /* NavBar
 -------------------------------------------------- */
 .bg-color-black{
-    background-color: #808080;
+    background-color: white;
     padding: 2em;
 
 }
@@ -20,14 +20,25 @@
 flex-wrap: nowrap;
 }
 .navbar-dark .navbar-toggler{
-    color: snow;
-    border-color: snow;
+    color: #252323;
+    border-color:#252323;
 }
 .navbar{
     margin-bottom: 30px;
+    border-bottom: ;
 }
 .col-sm-12.col-md-6{
   margin-right: 2em;
+}
+.navbar-dark .navbar-brand{
+  color: #252323;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #252323;
+}
+.btn-outline-light {
+  color: #252323;
+  border-color: #252323;
 }
 /* Finish Navbar
 -------------------------------------------------- */
@@ -167,12 +178,12 @@ flex-wrap: nowrap;
     padding: 1em o 1em;
   }
   .gray-container ul li{
-    margin: 3em;
+    margin: 1em;
     padding: 1em;
     list-style-type: none;
   }
   .testemonial-container{
-    background-color: snow;
+    background-color: ;
     color:#252323;
   }
   ul{
@@ -235,8 +246,6 @@ flex-wrap: nowrap;
   overflow: hidden;
   padding: 50px 0 50px;
   }
-
-}
 .button:hover{
     background: gray;
     color: snow;
@@ -255,12 +264,13 @@ flex-wrap: nowrap;
   .button3{
     background-color:#252323;
     color: snow;
-    padding: 5px 8px;
+    padding: 9px 14px;
     border: none;
 }
 .button3:hover{
     background:snow;
     color: #252323;
+    text-decoration: none;
 }
 .button4{
     background-color:transparent;
@@ -280,7 +290,14 @@ flex-wrap: nowrap;
   text-decoration: none;
   border: 0;
   margin-left: 1em;
-  
+}
+.btnLogin:hover{
+  background-color: gray;
+  color: snow;
+}
+.btn-outline-light:hover{
+  background-color: gray;
+  color: snow;
 }
   /* Finish About Content
   -------------------------------------------------- */
@@ -473,55 +490,6 @@ li.timeline-item::before {
 }
 
 /*
-*
-* ==========================================
-* Test 2 Macbook demo
-* ==========================================
-*
-*/body {
-  margin-top:60px;
-  font-family: 'Montserrat',sans-serif;
-}
-/* this is just for the demo */
-
-
-
-
-
-.panel-heading:hover {
-  cursor:pointer;
-}
-.panel-heading {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;    
-}
-
-.side-tab:hover {
-      cursor: pointer;
-  }
-  .panel.panel-default {
-      border: none;
-      box-shadow: none !important;
-      border-bottom-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      
-  }
-  .panel-heading {
-      border: none;
-      background-color: #eee;
-  
-  }
-  .panel-body {
-      background-color: #f5f5f5;
-  }
-  .panel-title {
-      font-weight: 400;
-      color: $white;
-  }
 
 /*----------------------------------
   Macbook pro mockup from:
@@ -552,100 +520,7 @@ margin: 0 auto;
 }
 
 }
-.md-macbook-pro .md-lid {
-width: 45em;
-height: 30.625em;
-overflow: hidden;
-margin: 0 auto;
-position: relative;
-border-radius: 1.875em;
-border: solid 0.1875em #cdced1;
-background: #131313;
-}
-.md-macbook-pro .md-camera {
-width: 0.375em;
-height: 0.375em;
-margin: 0 auto;
-position: relative;
-top: 1.0625em;
-background: #000;
-border-radius: 100%;
-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
-}
-.md-macbook-pro .md-camera:after {
-content: "";
-display: block;
-width: 0.125em;
-height: 0.125em;
-position: absolute;
-left: 0.125em;
-top: 0.0625em;
-background: #353542;
-border-radius: 100%;
-}
-.md-macbook-pro .md-screen {
-width: 42.25em;
-height: 26.375em;
-margin: 0 auto;
-position: relative;
-top: 2.0625em;
-// background: #1d1d1d;
-background: #fff;
-overflow: hidden;
-}
-.md-macbook-pro .md-screen img {
-width: 100%;
-}
-.md-macbook-pro .md-base {
-width: 100%;
-height: 0.9375em;
-position: relative;
-top: -0.75em;
-background: #c6c7ca;
-}
-.md-macbook-pro .md-base:after {
-content: "";
-display: block;
-width: 100%;
-height: 0.5em;
-margin: 0 auto;
-position: relative;
-bottom: -0.1875em;
-background: #b9babe;
-border-radius: 0 0 1.25em 1.25em;
-}
-.md-macbook-pro .md-base:before {
-content: "";
-display: block;
-width: 7.6875em;
-height: 0.625em;
-margin: 0 auto;
-position: relative;
-background: #a6a8ad;
-border-radius: 0 0 0.625em 0.625em;
-}
-.md-macbook-pro.md-glare .md-lid:after {
-content: "";
-display: block;
-width: 50%;
-height: 100%;
-position: absolute;
-top: 0;
-right: 0;
-border-radius: 0 1.25em 0 0;
-background: -webkit-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-background: -moz-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-background: -o-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-background: linear-gradient(53deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-}
 
-/*
-*
-* ==========================================
-* Test 2 macbook demo end
-* ==========================================
-*
-*/
 
 
 /*
@@ -866,8 +741,293 @@ body {
 /* Inhalt finish
 -------------------------------------------------- */
 
+/* Login Page 
+-------------------------------------------------- */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Text Align */
+.text-c {
+  text-align: center;
+}
+.text-l {
+  text-align: left;
+}
+.text-r {
+  text-align: right
+}
+.text-j {
+  text-align: justify;
+}
+
+/* Text Color */
+.text-whitesmoke {
+  color: whitesmoke
+}
+.text-darkyellow {
+  color: snow;
+  text-decoration: none;
+
+}
+.text-darkyellow :hover{
+  text-decoration: none;
+}
+
+/* Lines */
+
+.line-b {
+  border-bottom: 1px solid #FFEB3B !important;
+}
+
+/* Buttons */
+.button {
+  border-radius: 3px;
+}
+.form-button {
+  background-color: rgba(255, 235, 59, 0.24);
+  border-color: rgba(255, 235, 59, 0.24);
+  color: #e6e6e6;
+}
+.form-button:hover,
+.form-button:focus,
+.form-button:active,
+.form-button.active,
+.form-button:active:focus,
+.form-button:active:hover,
+.form-button.active:hover,
+.form-button.active:focus {
+  background-color: rgba(255, 235, 59, 0.473);
+  border-color: rgba(255, 235, 59, 0.473);
+  color: #e6e6e6;
+  text-decoration: none;
+}
+.button-l {
+  width: 100% !important;
+}
+
+/* Margins g(global) - l(left) - r(right) - t(top) - b(bottom) */
+
+.margin-g {
+  margin: 15px;
+}
+.margin-g-sm {
+  margin: 10px;
+}
+.margin-g-md {
+  margin: 20px;
+}
+.margin-g-lg {
+  margin: 30px;
+}
+
+.margin-l {
+  margin-left: 15px;
+}
+.margin-l-sm {
+  margin-left: 10px;
+}
+.margin-l-md {
+  margin-left: 20px;
+}
+.margin-l-lg {
+  margin-left: 30px;
+}
+
+.margin-r {
+  margin-right: 15px;
+}
+.margin-r-sm {
+  margin-right: 10px;
+}
+.margin-r-md {
+  margin-right: 20px;
+}
+.margin-r-lg {
+  margin-right: 30px;
+}
+
+.margin-t {
+  margin-top: 15px;
+}
+.margin-t-sm {
+  margin-top: 10px;
+}
+.margin-t-md {
+  margin-top: 20px;
+}
+.margin-t-lg {
+  margin-top: 30px;
+}
+
+.margin-b {
+  margin-bottom: 15px;
+}
+.margin-b-sm {
+  margin-bottom: 10px;
+}
+.margin-b-md {
+  margin-bottom: 20px;
+}
+.margin-b-lg {
+  margin-bottom: 30px;
+}
+
+/* Bootstrap Form Control Extension */
+
+.form-control,
+.border-line {
+  background-color: white;
+  background-image: none;
+  border: 1px solid #424242;
+  border-radius: 1px;
+  color: inherit;
+  display: block;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+}
+.form-control:focus,
+.border-line:focus {
+  border-color: black;
+  background-color: white;
+  color: #252323;
+}
+.form-control,
+.form-control:focus {
+  box-shadow: none;
+}
+.form-control::-webkit-input-placeholder { color: #BDBDBD; }
+
+/* Container */
+
+.container-content {
+  background-color: #3a3a3aa2;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: snow;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+  border-bottom: 200px;;
+}
+
+/* Backgrounds */
+
+.main-bg {
+
+  background: lightgray;
+  background: linear-gradient( #424242, #252323, #424242);
+  background-repeat:;
+}
+
+/* Login & Register Pages*/
+
+.login-container {
+  max-width: 400px;
+  z-index: 100;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: px;
+}
+.login.login-container {
+  width: 10px;
+}
+.wrapper.login-container {
+  margin-top: 140px;
+}
+.logo-badge {
+  color: #e6e6e6;
+  font-size: 80px;
+  font-weight: 800;
+  letter-spacing: -10px;
+  margin-bottom: 0;
+}
 
 
+
+body {
+  overflow-x: hidden;
+}
+
+/* Toggle Styles */
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  
+}
+
+#wrapper.toggled {
+  padding-left: 200px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background-color:#312A25 !Important;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 0;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 10px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-left:-250px;
+}
+
+/* Login nav */
+
+.nav-pills .nav-link{
+  border-radius: 0;
+}
+.nav-pills a{
+  color: #252323;
+  background-color: white ;
+  flex-wrap: nowrap;
+  padding: 10px 40px 10px 20px;
+}
+.nav-pills .nav-link.active{
+  background-color: #252323;
+
+}
+.fix-me{
+  position: fixed;
+  top: 3rem;
+}
+
+
+
+
+/* Login Page Finishd 
+-------------------------------------------------- */
 
 /* Footer
 -------------------------------------------------- */
