@@ -776,9 +776,38 @@ img{
 
     /* STRAPS finishd
   -------------------------------------------------- */
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+
+
+
       /* Timline Start 
   -------------------------------------------------- */
-
+  *{margin:0;padding:0;}
+  body{font:15px/1.5 "Arial";background-color:#fff;color:#252323;}
+  .wrap{max-width:60%;margin:50px auto;padding-left:20px;border-left:6px solid #252323;border-radius:0%;}
+  .wrap li{margin:2em 0;list-style-type:none;position:relative;}
+  .wrap li input{display:none;}
+  .wrap li .lab{margin:23px 0 10px;display:inline-block;font-size:20px;letter-spacing:1px;cursor:pointer;}
+  .wrap li .date{position:absolute;left:-120px;top:50%;margin-top:-7px;font-size:18px;}
+  .wrap li .circle{width:8px;height:8px;position:absolute;left:-30px;top:50%;margin-top:-4px;border:3px solid #252323;background-color:#4377E6;border-radius:50%;}
+  .wrap li .content{max-height:50px;border:2px solid transparent;padding:0px 10px 20px 0px;border-radius:10px;position:relative;transition:max-height 0.3s linear,border-color 0.3s linear,transform 0.2s ease,padding 0.3s linear;}
+  .wrap li .content p{font-size:16px;color:transparent;transition:color 0.2s linear;}
+  .wrap li .content img{ width: 400px; opacity: 0; transition:color 0.2s linear;}
+  .wrap li .content:before,.wrap li .content:after{width:0px;height:0px;position:absolute;top:50%;right:100%;border:solid transparent;content:"";}
+  .wrap li .content:before{border-width:15px;border-right-color:inherit;margin-top:-12px; border-image-width: 0px;}
+  .wrap li .content:after{border-width:13px;border-right-color:52323;margin-top:-10px; border-image-width: 300px;}
+  
+  input:checked ~ .content{max-height:1500px;padding-left:20px;border-color:#fff;transform:translate3D(20px,0,0);}
+  input:checked ~ .content p{color:#252323;transition-delay:0.3s;transition-duration:0.5s;}
+  input:checked ~ .content .lab{cursor:auto;}
+  input:checked ~ .content p img{opacity: 100;}
+  
 /*
 *
 * ==========================================
@@ -786,55 +815,6 @@ img{
 * ==========================================
 *
 */
-
-/* Timeline holder */
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
- /* Timeline vertical line */
-ul.timeline:before {
-    content: ' ';
-    background: gray;
-    display: inline-block;
-    position: absolute;
-    left: 16px;
-    width: 4px;
-    height: 100%;
-    z-index: 400;
-    border-radius: 1rem;
-}
-
-li.timeline-item {
-    margin: 20px 0;
-}
-
-/* Timeline item arrow */
-.timeline-arrow {
-    border-top: 0.5rem solid transparent;
-    border-right: 0.5rem solid #fff;
-    border-bottom: 0.5rem solid transparent;
-    display: block;
-    position: absolute;
-    left: 2rem;
-}
-
-/* Timeline item circle marker */
-li.timeline-item::before {
-    content: ' ';
-    background: #252323;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #252323;
-    left: 11px;
-    width: 14px;
-    height: 14px;
-    z-index: 400;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
 
 
 
