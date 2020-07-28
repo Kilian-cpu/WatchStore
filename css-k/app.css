@@ -1625,7 +1625,7 @@ body {
 /* Container */
 
 .container-content {
-  background-color: #3a3a3aa2;
+  background-color: snow;
   color: inherit;
   padding: 15px 20px 20px 20px;
   border-color: snow;
@@ -1639,8 +1639,8 @@ body {
 
 .main-bg {
 
-  background: lightgray;
-  background: linear-gradient( #424242, #252323, #424242);
+  background: snow;
+
   background-repeat:;
 }
 
